@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --azul: #5086AA;
+    --fundo-2: #454E55;
+    --fundo-cabecalho :#526D80;
+    --fundo-rodape: #2A2F33;
+}
+
+body {
+    font-family: "Arsenal SC", sans-serif;
+    background-color: var(--fundo-2);
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.cabecalho {
+    background-color: var(--fundo-cabecalho);
+}
+
+.cabecalho-titulo{
+    padding: 5px 10px;
+    color: white;
+}
+
+.principal {
+    background-color: white;
+    margin: 10px 20px;
+    padding: 2px 10px 8px;
+    border-radius: 7px;
+}
+
+.colegio {
+    margin: 2px 10px;
+}
+
+.cursos-que-tenho{
+    margin: 2px 10px;
+}
+
+.habilidades-que-tenho {
+    margin: 2px 10px 0;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
